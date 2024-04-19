@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Aditya-Singh-5014/Quiz-assignment/static/css/main.0ae9fc83.css",
+    "main.js": "/Aditya-Singh-5014/Quiz-assignment/static/js/main.7802e9c9.js",
+    "static/js/453.ed3810f9.chunk.js": "/Aditya-Singh-5014/Quiz-assignment/static/js/453.ed3810f9.chunk.js",
+    "static/media/good.png": "/Aditya-Singh-5014/Quiz-assignment/static/media/good.42109046d8ab08729e4d.png",
+    "static/media/duck.png": "/Aditya-Singh-5014/Quiz-assignment/static/media/duck.760d24ee1138e626e07b.png",
+    "static/media/logo-main.svg": "/Aditya-Singh-5014/Quiz-assignment/static/media/logo-main.fb57a5de8ec85b091c5fc485e2b4444c.svg",
+    "index.html": "/Aditya-Singh-5014/Quiz-assignment/index.html",
+    "static/media/account.svg": "/Aditya-Singh-5014/Quiz-assignment/static/media/account.76d2da200efe9a4ef17e55ec010ca2de.svg",
+    "main.0ae9fc83.css.map": "/Aditya-Singh-5014/Quiz-assignment/static/css/main.0ae9fc83.css.map",
+    "main.7802e9c9.js.map": "/Aditya-Singh-5014/Quiz-assignment/static/js/main.7802e9c9.js.map",
+    "453.ed3810f9.chunk.js.map": "/Aditya-Singh-5014/Quiz-assignment/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae9fc83.css",
+    "static/js/main.7802e9c9.js"
+  ]
+}
