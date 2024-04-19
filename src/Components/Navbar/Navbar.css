@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 5vh;
+  background-color: #007bff;
+  color: #fff;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+
+  @media (max-width: 768px) {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .signin-link {
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    text-decoration: none; /* Remove underline from link */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around content */
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      margin-top: 10px; /* Add space above button on smaller screens */
+    }
+  }
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    margin: 10px 0; /* Adjust spacing for smaller screens */
+  }
+}

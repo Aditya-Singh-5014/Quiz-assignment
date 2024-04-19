@@ -1,0 +1,41 @@
+/* Score Page Container */
+.score-page {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  width: 50%;
+  height: 30vh;
+  margin: auto;
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 20px; /* Padding inside the container */
+  text-align: center; /* Center-align text */
+
+  .duck,
+  .goodJob {
+    height: 100px;
+
+    @media (max-width: 630px) {
+      height: 80px;
+    }
+  }
+}
+
+/* Score Page Title */
+.score-page h2 {
+  color: #007bff; /* Blue title color */
+  font-size: 24px; /* Larger font size */
+  margin-bottom: 10px; /* Spacing below the title */
+}
+
+/* Score Text */
+.score-page p {
+  font-size: 18px; /* Medium font size */
+  margin-bottom: 0; /* Remove bottom margin */
+}

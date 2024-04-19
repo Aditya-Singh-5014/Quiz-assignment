@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
+import SignIn from "./Components/SignIn/SignIn";
+import Quiz from "./Components/Quiz/Quiz";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [username, setUsername] = useState("");
+
+  const handleSignIn = (user) => {
+    setUsername(user);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <Navbar username={username} />
+        <Routes>
+          <Route path="/" element={<Quiz />} />
+          <Route path="/signin" element={<SignIn onSignIn={handleSignIn} />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
